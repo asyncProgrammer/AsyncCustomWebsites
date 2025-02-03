@@ -48,7 +48,7 @@
 
 /* Responsive Design - Mobile */
 @media (max-width: 768px) {
-    .websites-websites {
+    .showcase-websites {
         flex-direction: column;  /* Stack the game cards vertically */
         align-items: center;     /* Center the items */
     }
@@ -113,7 +113,7 @@
 
 /* Responsive Design - Mobile */
 @media (max-width: 768px) {
-    .websites-websites-2 {
+    .showcase-websites-2 {
         flex-direction: column;  /* Stack the game cards vertically */
         align-items: center;     /* Center the items */
     }

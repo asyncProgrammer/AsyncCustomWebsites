@@ -38,6 +38,11 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .hero-section {
+        display: block;  /* Ensures it doesn't interfere with flex layouts */
+        text-align: center;
+    }
+
     .hero-section img {
         width: 100%;
     }

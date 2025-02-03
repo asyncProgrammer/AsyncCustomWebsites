@@ -47,7 +47,7 @@
 }
 
 /* Responsive Design - Mobile */
-@media (max-width: 768px) {
+@media (max-width: 720px) {
     .showcase-websites {
         flex-direction: column;  /* Stack the game cards vertically */
         align-items: center;     /* Center the items */

@@ -2,11 +2,12 @@
 /* Showcase Section */
 .showcase-websites {
     display: flex;
-   
-   
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    padding: 2rem;
+    height: 100vh; /* Full viewport height */
 }
+
 
 :root {
   --primary-orange: #8B3200;  /* Dark burnt orange */

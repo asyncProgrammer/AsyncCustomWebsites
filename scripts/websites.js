@@ -30,6 +30,6 @@ websiteContainerConstructor2.createShowCaseContainer('Landscaping Co.','../image
     websiteContainerConstructor2.createShowCaseContainer('Monster Creator','../images/monsterCreatorSiteIMG.jpg',
         'A website designed to promote a company that sells custom monsters with removed backgrounds for games and stories. (React) ','https://wizardsprogramming.github.io/monster-creator/', websites2);
 
-
-        websiteContainerConstructor2.putAllShowCasesOnPage(websites, document.querySelector('.showcase-websites-2'));
+        websiteContainerConstructor.putAllShowCasesOnPage(websites, document.querySelector('.showcase-websites'));
+        websiteContainerConstructor.putAllShowCasesOnPage(websites, document.querySelector('.showcase-websites-2'));
 console.log(websites);

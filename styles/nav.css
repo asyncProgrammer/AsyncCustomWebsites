@@ -1,0 +1,37 @@
+/* Dark Orange and Black Theme */
+:root {
+    --primary-orange: #8B3200;  /* Dark burnt orange */
+    --secondary-orange: #D35400; /* Bright accent orange */
+    --light-orange: #FFA559;  /* Soft warm orange */
+    --dark-orange: #BF360C;  /* Deep orange-red */
+    --background-color: #121212;  /* Dark background */
+    --text-color: #E0E0E0;  /* Light text for contrast */
+}
+
+/* Body and Background */
+body {
+    background-color: var(--background-color);
+    font-family: cursive;
+    color: var(--text-color);
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--primary-orange);
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--secondary-orange) !important;
+}
+
+ 

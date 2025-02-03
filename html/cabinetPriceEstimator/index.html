@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Use the Cabinet Measurement Calculator by Async Programming to easily calculate the correct cabinet size for replacing cabinets with inside (non-visible) hinges.">
+    <meta name="keywords" content="cabinet calculator, cabinet measurement, cabinet replacement, framed hinges, cabinet size, async programming, tools for cabinet measurement">
+    <meta name="author" content="Async Programming">
+    <meta property="og:title" content="Cabinet Calculator | Async Programming">
+    <meta property="og:description" content="Quickly calculate cabinet sizes for framed hinges with the Cabinet Measurement Calculator by Async Programming. Get accurate results for your cabinet replacement project.">
+    <meta property="og:image" content="../../images/cabinetCalculatorImage.jpg">
+    <meta property="og:url" content="https://yourwebsite.com/cabinet-calculator.html">
+    <meta name="twitter:title" content="Cabinet Calculator | Async Programming">
+    <meta name="twitter:description" content="Easily calculate the correct size for cabinets with framed hinges. Use Async Programming’s Cabinet Measurement Calculator for fast and accurate results.">
+    <meta name="twitter:image" content="../../images/cabinetCalculatorImage.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Cabinet Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../styles/header.css" rel="stylesheet">
+    <link href="../../styles/footer.css" rel="stylesheet">
+    <link href="../../styles/nav.css" rel="stylesheet">
+</head>
+<style>
+.container {
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+input {
+    text-align: center;
+}
+.div-cabinet{
+   margin:1rem;
+   background-color: white;
+   color:black;
+}
+
+    </style>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Async Programming</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../services.html">Services</a></li>
+                    <li class="nav-item dropdown">
+                        <a 
+                            class="nav-link dropdown-toggle" 
+                            href="sites.html" 
+                            id="sitesDropdown" 
+                            role="button" 
+                            data-bs-toggle="dropdown" 
+                            aria-expanded="false">
+                            Sites
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="sitesDropdown">
+                            <li><a class="dropdown-item" href="../sites.html">Overview</a></li>
+                           
+                            <li><a class="dropdown-item" href="../websites.html">Websites</a></li>
+                            <li><a class="dropdown-item" href="../tools.html">Tools</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="../contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <div class="container">
+        <h1>Cabinet Measurement Calculator</h1>
+        <p>(For Framed Hinges)</p>
+        <p>Input width and height to find correct size to replace cabinets with inside (non-visible) hinges.</p>
+        <p></p>
+        <form id="cabinet-form">
+            <label for="width">Original Width (in inches):</label>
+            <input type="number" id="width" name="width" required>
+            
+            <label for="height">Original Height (in inches):</label>
+            <input type="number" id="height" name="height" required>
+            
+            <label for="overlay">Hinge Overlay (in inches):</label>
+            <input type="number" id="overlay" name="overlay" required step="0.01">
+
+            
+            <button type="submit">Calculate</button>
+            
+        </form>
+        <button id="generate-csv" class="btn btn-primary mt-3">Generate CSV</button>
+        <p class="tracker-results">Total Price: <span>0</span> Total Number of Pieces: <span>0</span>.</p>
+        <div id="results"></div>
+    </div>
+
+
+
+<!-- Modal for CSV Output -->
+<div id="csv-modal" class="modal fade" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">CSV Output</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <textarea id="csv-output" class="form-control" rows="6" readonly></textarea>
+            </div>
+            <div class="modal-footer">
+                <button id="copy-csv" class="btn btn-success">Copy</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

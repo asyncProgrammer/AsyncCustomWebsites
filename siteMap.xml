@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Main Pages Section -->
+    <sitemap>
+        <loc>https://yourwebsite.com/index.html</loc>
+        <lastmod>2025-02-02</lastmod>
+        <priority>1.0</priority>
+    </sitemap>
+    <sitemap>
+        <loc>https://yourwebsite.com/services.html</loc>
+        <lastmod>2025-02-02</lastmod>
+        <priority>0.9</priority>
+    </sitemap>
+    <sitemap>
+        <loc>https://yourwebsite.com/contact.html</loc>
+        <lastmod>2025-02-02</lastmod>
+        <priority>0.9</priority>
+    </sitemap>
+    <sitemap>
+        <loc>https://yourwebsite.com/ourHouseKidsBooks.html</loc>
+        <lastmod>2025-02-02</lastmod>
+        <priority>0.9</priority>
+    </sitemap>
+
+    <!-- Dynamic Games Section -->
+    <sitemap>
+        <loc>https://yourwebsite.com/colorCacheMobile</loc>
+        <lastmod>2025-02-02</lastmod>
+        <priority>0.8</priority>
+    </sitemap>
+    <sitemap>
+        <loc>https://alexisgood100.github.io/ColorCacheFree/</loc>
+        <lastmod>2025-02-02</lastmod>
+        <priority>0.8</priority>
+    </sitemap>
+    <sitemap>
+        <loc>https://wizardsprogramming.github.io/SynonymousSentences/</loc>
+        <lastmod>2025-02-02</lastmod>
+        <priority>0.8</priority>
+    </sitemap>
+    <sitemap>
+        <loc>https://wizardsprogramming.github.io/stockmarketgame/</loc>
+        <lastmod>2025-02-02</lastmod>
+        <priority>0.8</priority>
+    </sitemap>
+
+    <!-- Dynamic Tools Section -->
+    <sitemap>
+        <loc>https://yourwebsite.com/cabinetPriceEstimator/index.html</loc>
+        <lastmod>2025-02-02</lastmod>
+        <priority>0.7</priority>
+    </sitemap>
+    <sitemap>
+        <loc>https://wizardsprogramming.github.io/inventoryManagement/</loc>
+        <lastmod>2025-02-02</lastmod>
+        <priority>0.7</priority>
+    </sitemap>
+
+    <!-- Dynamic Websites Section -->
+    <sitemap>
+        <loc>https://wizardsprogramming.github.io/custom-web-sites/</loc>
+        <lastmod>2025-02-02</lastmod>
+        <priority>0.9</priority>
+    </sitemap>
+    <sitemap>
+        <loc>https://wizardsprogramming.github.io/bloodCoin/</loc>
+        <lastmod>2025-02-02</lastmod>
+        <priority>0.9</priority>
+    </sitemap>
+    <sitemap>
+        <loc>https://wizardsprogramming.github.io/landscaping-mock/</loc>
+        <lastmod>2025-02-02</lastmod>
+        <priority>0.9</priority>
+    </sitemap>
+    <sitemap>
+        <loc>https://alexisgood100.github.io/refactored-octo-waddle/</loc>
+        <lastmod>2025-02-02</lastmod>
+        <priority>0.9</priority>
+    </sitemap>
+    <sitemap>
+        <loc>https://wizardsprogramming.github.io/monster-creator/</loc>
+        <lastmod>2025-02-02</lastmod>
+        <priority>0.9</priority>
+    </sitemap>
+
+    <!-- Service Pages Section (Custom Website & Hosting, SEO, etc.) -->
+    <sitemap>
+        <loc>https://yourwebsite.com/createCustomWebsiteAndHostOnGitPages</loc>
+        <lastmod>2025-02-02</lastmod>
+        <priority>0.8</priority>
+    </sitemap>
+    <sitemap>
+        <loc>https://yourwebsite.com/createCustomWebsiteAndHostOnCustomDomain</loc>
+        <lastmod>2025-02-02</lastmod>
+        <priority>0.8</priority>
+    </sitemap>
+    <sitemap>
+        <loc>https://yourwebsite.com/customReactApplicationsAndWebsites</loc>
+        <lastmod>2025-02-02</lastmod>
+        <priority>0.8</priority>
+    </sitemap>
+    <sitemap>
+        <loc>https://yourwebsite.com/maintenanceAndChanges</loc>
+        <lastmod>2025-02-02</lastmod>
+        <priority>0.8</priority>
+    </sitemap>
+    <sitemap>
+        <loc>https://yourwebsite.com/hostingAndSetupEtsyAndShopify</loc>
+        <lastmod>2025-02-02</lastmod>
+        <priority>0.8</priority>
+    </sitemap>
+
+</sitemapindex>

@@ -1,0 +1,29 @@
+/* Dark Orange and Black Theme */
+:root {
+    --primary-orange: #8B3200;  /* Dark burnt orange */
+    --secondary-orange: #D35400; /* Bright accent orange */
+    --light-orange: #FFA559;  /* Soft warm orange */
+    --dark-orange: #BF360C;  /* Deep orange-red */
+    --background-color: #121212;  /* Dark background */
+    --text-color: #E0E0E0;  /* Light text for contrast */
+}
+
+/* Header */
+header {
+    background-color: var(--primary-orange);
+    color: white;
+    padding: 15px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1rem;
+}
+
+p{
+    font-size:24px;
+}

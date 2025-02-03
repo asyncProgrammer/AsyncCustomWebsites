@@ -2,9 +2,8 @@
 /* Showcase Section */
 .showcase-websites {
     display: flex;
-/*     flex-wrap: wrap;
-    */
-    justify-content: space-around;
+   
+    justify-content: center;
     width: 100%;
     padding: 2rem;
 }

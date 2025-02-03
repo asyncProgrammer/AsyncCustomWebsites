@@ -47,7 +47,7 @@
 }
 
 /* Responsive Design - Mobile */
-@media (max-width: 720px) {
+@media (max-width: 768px) {
     .showcase-websites {
         flex-direction: column;  /* Stack the game cards vertically */
         align-items: center;     /* Center the items */
@@ -63,67 +63,4 @@
     }
 }
 
-/* Showcase Games Section */
-.showcase-websites-2 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    text-align: center;
-    width: 100vw;
-    padding: 2rem;
-}
 
-.showcase-websites-2 div {
-    width: 22vw;  /* Default width for larger screens */
-    height: auto;
-    margin: 1.5rem;
-    padding: 1.5rem;
-    background-color: var(--dark-orange);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.showcase-websites-2 div:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-}
-
-.showcase-websites-2 div img {
-    width: 100%;
-    height: auto;
-    border-radius: 10%;
-    object-fit: cover;
-}
-
-.showcase-websites-2 div a {
-    color: var(--background-color);
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
-    display: block;
-    transition: color 0.3s ease;
-}
-
-
-.websites-hero {
-    text-align: center;
-}
-
-/* Responsive Design - Mobile */
-@media (max-width: 768px) {
-    .showcase-websites-2 {
-        flex-direction: column;  /* Stack the game cards vertically */
-        align-items: center;     /* Center the items */
-    }
-
-    .showcase-websites-2 div {
-        width: 90vw;  /* Full width for each card on small screens */
-        margin: 1rem 0;  /* Adjust margin for better mobile layout */
-    }
-
-    .showcase-websites-2 div img {
-        width: 100%;  /* Ensure the image fits properly */
-    }
-}

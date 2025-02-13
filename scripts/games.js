@@ -5,6 +5,11 @@ const gamesContainerConstructor = new ShowCaseConstructor();
 gamesContainerConstructor.createShowCaseContainer('Color Cache (Mobile)','../images/games/colorCacheImage.jpg',
     'A game designed to improve pattern recognition and memory. - (JS, HTML, CSS)','https://alexisgood100.github.io/colorCacheMobile/', games);
 
+
+gamesContainerConstructor.createShowCaseContainer('Word To Number','../images/games/wordsToNumbersIMG.jpg',
+        'A game designed to teach pattern recognition and quick thinking. Convert words to numbers using a table of letter values - (HTML, CSS, JavaScript).','https://alexisgood100.github.io/WordToNumber/', games);
+
+
     gamesContainerConstructor.createShowCaseContainer('Color Cache (Desktop)','../images/games/colorCacheImage.jpg',
         'A game designed to improve pattern recognition and memory. - (JS, HTML, CSS)','https://alexisgood100.github.io/ColorCacheFree/', games);
 

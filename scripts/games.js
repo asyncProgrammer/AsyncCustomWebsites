@@ -19,6 +19,10 @@ gamesContainerConstructor.createShowCaseContainer('Word To Number','../images/ga
             gamesContainerConstructor.createShowCaseContainer('Basic Stock Market Simulator Game','../images/games/stockmarketGameIMG.jpg',
                 'A game designed to mock selling and buying stocks that change prices. Aim for five minutes and getting a higher than starting amount. - (React).','https://wizardsprogramming.github.io/stockmarketgame/', games);
 
+gamesContainerConstructor.createShowCaseContainer('Mystery Solver (horror) ','../images/games/mysterySolverIMG.jpg',
+                    'A game designed to test your detective skills. - (HTML, CSS, JavaScript).','https://alexisgood100.github.io/mysterySolver/', games);
+
+
 gamesContainerConstructor.putAllShowCasesOnPage(games, document.querySelector('.showcase-games'));
 console.log(games);
 

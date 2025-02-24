@@ -22,6 +22,9 @@ gamesContainerConstructor.createShowCaseContainer('Word To Number','../images/ga
 gamesContainerConstructor.createShowCaseContainer('Mystery Solver (horror) ','../images/games/mysterySolverIMG.jpg',
                     'A game designed to test your detective skills. - (HTML, CSS, JavaScript).','https://alexisgood100.github.io/mysterySolver/', games);
 
+gamesContainerConstructor.createShowCaseContainer('Color Match','../images/games/colorMatchIMG.jpg',
+                    'A game designed to increase your ability to process colors quicker and more accurately. - (HTML, CSS, JavaScript).','https://alexisgood100.github.io/colorMatch/', games);
+
 
 gamesContainerConstructor.putAllShowCasesOnPage(games, document.querySelector('.showcase-games'));
 console.log(games);
